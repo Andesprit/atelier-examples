@@ -1,0 +1,9 @@
+[submodule "autonomous-projects"]
+	path = autonomous-projects
+	url = https://github.com/Andesprit/autonomous-projects.git
+[submodule "project-pipeline"]
+	path = project-pipeline
+	url = https://github.com/Andesprit/project-pipeline.git
+[submodule "sdlc-atelier"]
+	path = sdlc-atelier
+	url = https://github.com/Andesprit/sdlc-atelier.git
