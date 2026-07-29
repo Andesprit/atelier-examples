@@ -14,7 +14,3 @@
 	path = sdlc-atelier
 	url = https://github.com/Andesprit/sdlc-atelier.git
 	branch = main
-[submodule "flow-atelier-skills"]
-	path = flow-atelier-skills
-	url = https://github.com/Andesprit/flow-atelier-skills.git
-	branch = main

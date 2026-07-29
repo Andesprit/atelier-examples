@@ -2,9 +2,9 @@
 
 This repository is a browsable catalog of public
 [Flow Atelier](https://github.com/Andesprit/flow-atelier) conduit packages and
-operator skills maintained by Andesprit. Each catalog entry remains an
-independent repository with its own history, releases, documentation, and
-installation path.
+examples maintained by Andesprit. Each catalog entry remains an independent
+repository with its own history, releases, documentation, and installation
+path.
 
 ## Important: install child repositories directly
 
@@ -14,7 +14,6 @@ package manifests from nested directories. Therefore:
 
 - Do **not** use `atelier add Andesprit/atelier-examples`.
 - Install the package you want directly with the command in the catalog.
-- Install agent skills with their own installer, not with `atelier add`.
 
 ## Catalog
 
@@ -24,7 +23,6 @@ package manifests from nested directories. Therefore:
 | [`project-pipeline/`](project-pipeline/) | [Andesprit/project-pipeline](https://github.com/Andesprit/project-pipeline) | A braindump-to-plan-to-implementation pipeline with human approval gates and application review. It depends on `autonomous-projects`; install that package first. | `atelier add Andesprit/project-pipeline` |
 | [`pursue-goal-and-review/`](pursue-goal-and-review/) | [Andesprit/pursue-goal-and-review](https://github.com/Andesprit/pursue-goal-and-review) | A focused build-and-review loop: one agent performs the task and another independently verifies completion. | `atelier add Andesprit/pursue-goal-and-review` |
 | [`sdlc-atelier/`](sdlc-atelier/) | [Andesprit/sdlc-atelier](https://github.com/Andesprit/sdlc-atelier) | Two minimal SDLC conduits. `spec-plan-build` remains a useful small example; `goal` is superseded by `pursue-goal-and-review`. | `atelier add Andesprit/sdlc-atelier` |
-| [`flow-atelier-skills/`](flow-atelier-skills/) | [Andesprit/flow-atelier-skills](https://github.com/Andesprit/flow-atelier-skills) | Agent skills for authoring and operating Flow Atelier and `autonomous-projects`. | `npx skills add Andesprit/flow-atelier-skills` |
 
 `pursue-goal-and-review` and `sdlc-atelier` currently have no
 `atelier-package.yaml`. Flow Atelier can discover their conduit directories,
@@ -62,7 +60,6 @@ CLI, conduit format, harness setup, scheduling, and server documentation.
 
 ## Scope
 
-This catalog contains public, reusable conduit examples and their operator
-skills. The Flow Atelier engine and product applications are linked as
-dependencies or related projects rather than embedded as submodules. No child
+This catalog contains public, reusable conduit examples. The Flow Atelier
+engine is linked as a dependency rather than embedded as a submodule. No child
 source is copied into this repository.
