@@ -7,3 +7,6 @@
 [submodule "sdlc-atelier"]
 	path = sdlc-atelier
 	url = https://github.com/Andesprit/sdlc-atelier.git
+[submodule "automatic_goal"]
+	path = automatic_goal
+	url = https://github.com/Andesprit/automatic-goal.git
