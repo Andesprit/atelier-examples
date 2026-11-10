@@ -19,6 +19,7 @@ package manifests from nested directories. Therefore:
 
 | Path | Repository | What it demonstrates | Install |
 | --- | --- | --- | --- |
+| [`automatic_goal/`](automatic_goal/) | [Andesprit/automatic-goal](https://github.com/Andesprit/automatic-goal) | A time-bounded goal loop: one agent proposes and reviews milestones, another implements them, with a shared decision history. | `atelier add Andesprit/automatic-goal --project` |
 | [`autonomous-projects/`](autonomous-projects/) | [Andesprit/autonomous-projects](https://github.com/Andesprit/autonomous-projects) | A scheduled improvement loop that proposes ideas and reviews, then implements approved tasks behind an independent review gate. | `atelier add Andesprit/autonomous-projects` |
 | [`project-pipeline/`](project-pipeline/) | [Andesprit/project-pipeline](https://github.com/Andesprit/project-pipeline) | A braindump-to-plan-to-implementation pipeline with human approval gates and application review. It depends on `autonomous-projects`; install that package first. | `atelier add Andesprit/project-pipeline` |
 | [`pursue-goal-and-review/`](pursue-goal-and-review/) | [Andesprit/pursue-goal-and-review](https://github.com/Andesprit/pursue-goal-and-review) | A focused build-and-review loop: one agent performs the task and another independently verifies completion. | `atelier add Andesprit/pursue-goal-and-review` |

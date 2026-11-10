@@ -14,3 +14,6 @@
 	path = sdlc-atelier
 	url = https://github.com/Andesprit/sdlc-atelier.git
 	branch = main
+[submodule "automatic_goal"]
+	path = automatic_goal
+	url = https://github.com/Andesprit/automatic-goal.git
